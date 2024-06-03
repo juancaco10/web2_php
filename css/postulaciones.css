@@ -1,0 +1,52 @@
+
+        .postulaciones {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .postulaciones h1 {
+            margin-bottom: 20px;
+        }
+        .postulacion {
+            display: flex;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            
+            border-radius: 5px;
+        }
+        .postulacion img {
+            max-width: 300px;
+            max-height: 100px;
+            margin-right: 60px;
+            border-radius: 5px;
+        }
+        .postulacion div {
+            flex: 1;
+        }
+        .postulacion h2 {
+            margin: 0;
+        }
+        .postulacion p {
+            margin: 5px 0;
+        }
+
+        .postulacion:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .perfil {
+            display: flex;
+            align-items: center;
+        }
+        .perfil img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+        }
+    

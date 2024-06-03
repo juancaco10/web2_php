@@ -1,0 +1,57 @@
+
+        .perfil {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .perfil img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .perfil input[type="text"],
+        .perfil input[type="email"],
+        .perfil input[type="password"],
+        .perfil input[type="file"],
+        .perfil button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .perfil .password-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .perfil .password-container input[type="password"] {
+            width: calc(100% - 80px);
+            margin-right: 10px;
+        }
+        .perfil .password-container button {
+            width: 70px;
+            padding: 10px;
+            background: #ff6600;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .perfil .password-container button:hover {
+            background: #e65c00;
+        }
+        .perfil button {
+            background: #ff6600;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .perfil button:hover {
+            background: #e65c00;
+        }
+    

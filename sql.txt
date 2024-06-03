@@ -1,0 +1,35 @@
+CREATE DATABASE anuncios_empleo;
+
+USE anuncios_empleo;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    contraseña VARCHAR(255) NOT NULL,
+    imagen VARCHAR(255),
+    linkedin VARCHAR(255),
+    rol ENUM('admin', 'usuario') DEFAULT 'usuario',
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE ofertas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(100) NOT NULL,
+    descripcion TEXT NOT NULL,
+    categoria ENUM('Tiempo Completo', 'Medio Tiempo', 'Freelance') NOT NULL,
+    empresa VARCHAR(100),
+    email_contacto VARCHAR(100),
+    imagen VARCHAR(255),
+    activa BOOLEAN DEFAULT TRUE,
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE postulaciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT,
+    id_oferta INT,
+    FOREIGN KEY (id_usuario) REFERENCES usuarios(id),
+    FOREIGN KEY (id_oferta) REFERENCES ofertas(id),
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

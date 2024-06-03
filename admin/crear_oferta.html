@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Nueva Oferta</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/crear_oferta.css">
+    <script src="../js/crear_oferta.js" defer></script>  
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Panel de Administrador</div>
+            <ul>
+                <li><a href="dashboard_admin.php">Inicio</a></li>
+                <li><a href="crear_oferta.html">Crear Oferta</a></li>
+                <li><a href="ver_ofertas.php">Ver Ofertas</a></li>
+                <li><a href="logout.php">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario">
+            <h1>Crear Nueva Oferta de Empleo</h1>
+            <form action="procesar_crear_oferta.php" method="post" enctype="multipart/form-data">
+                <label for="titulo">Título de la Oferta:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" required></textarea>
+                
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="Tiempo Completo">Tiempo Completo</option>
+                    <option value="Medio Tiempo">Medio Tiempo</option>
+                    <option value="Freelance">Freelance</option>
+                </select>
+                
+                <label for="empresa">Nombre de la Empresa:</label>
+                <input type="text" id="empresa" name="empresa" required>
+                
+                <label for="contacto">Correo de Contacto:</label>
+                <input type="email" id="contacto" name="contacto" required>
+                
+                <label for="imagen">Imagen:</label>
+                <input type="file" id="imagen" name="imagen" required>
+                
+                <button type="submit" class="btn">Crear Oferta</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sistema de Anuncios de Empleo - Programación WEB II - Juan Carlos de León</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

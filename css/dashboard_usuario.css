@@ -1,0 +1,90 @@
+.dashboard {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dashboard h1 {
+    margin-bottom: 20px;
+}
+.oferta {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.oferta:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.oferta img {
+    max-width: 400px;
+    max-height: 200px;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+.oferta div {
+    flex: 1;
+}
+.oferta h2 {
+    margin: 0;
+}
+.oferta p {
+    margin: 5px 0;
+}
+.oferta button {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.oferta button:hover {
+    background: #e65c00;
+}
+.button-disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+.busqueda {
+    margin-bottom: 20px;
+}
+.busqueda input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.busqueda select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.busqueda button {
+    padding: 10px;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+}
+.perfil img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}

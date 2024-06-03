@@ -1,0 +1,11 @@
+1- Abrir terminal cmd
+
+abrir carpeta del proyecto
+2- cd C:\mi_proyecto
+
+Inicia el servidor de PHP
+3- php -S localhost:8000
+
+Abrir navegador
+4- http://localhost:8000
+

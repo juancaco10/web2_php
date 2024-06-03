@@ -1,0 +1,78 @@
+.detalles-oferta {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.detalles-oferta img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.detalles-oferta p {
+    margin: 10px 0;
+}
+.otras-ofertas {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.oferta {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.oferta:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.oferta img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.oferta div {
+    flex: 1;
+}
+.oferta h2 {
+    margin: 0;
+}
+.oferta p {
+    margin: 5px 0;
+}
+.oferta button {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.oferta button:hover {
+    background: #e65c00;
+}
+button {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+button:hover {
+    background: #e65c00;
+}

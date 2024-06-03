@@ -1,0 +1,54 @@
+-- Empresa 1: TecnoSoft
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Programador Junior Java', 'Desarrollo de aplicaciones en Java.', 'Tiempo Completo', 'TecnoSoft', 'contacto@tecnosoft.com', 'imagen1.jpg'),
+('Analista de Sistemas', 'Análisis y diseño de sistemas informáticos.', 'Medio Tiempo', 'TecnoSoft', 'contacto@tecnosoft.com', 'imagen2.jpg'),
+('Desarrollador Backend', 'Desarrollo de APIs y servicios backend.', 'Freelance', 'TecnoSoft', 'contacto@tecnosoft.com', 'imagen3.jpg');
+
+-- Empresa 2: DevSolutions
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Programador Junior Java', 'Desarrollo de aplicaciones en Java.', 'Medio Tiempo', 'DevSolutions', 'info@devsolutions.com', 'imagen4.jpg'),
+('Desarrollador Full Stack', 'Desarrollo de aplicaciones web completas.', 'Tiempo Completo', 'DevSolutions', 'info@devsolutions.com', 'imagen5.jpg');
+
+-- Empresa 3: CodeWorks
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Desarrollador Python', 'Desarrollo de aplicaciones y scripts en Python.', 'Tiempo Completo', 'CodeWorks', 'jobs@codeworks.com', 'imagen6.jpg');
+
+-- Empresa 4: SysTech
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Analista de Datos', 'Análisis y visualización de datos.', 'Medio Tiempo', 'SysTech', 'hr@systech.com', 'imagen7.jpg');
+
+-- Empresa 5: ByteCorp
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Programador PHP', 'Desarrollo de aplicaciones web en PHP.', 'Freelance', 'ByteCorp', 'contact@bytecorp.com', 'imagen8.jpg');
+
+-- Empresa 6: WebDevPros
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Desarrollador Frontend', 'Desarrollo de interfaces de usuario con HTML, CSS y JavaScript.', 'Tiempo Completo', 'WebDevPros', 'careers@webdevpros.com', 'imagen9.jpg');
+
+-- Empresa 7: NetSolutions
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Ingeniero de Software', 'Desarrollo y mantenimiento de sistemas software.', 'Medio Tiempo', 'NetSolutions', 'jobs@netsolutions.com', 'imagen10.jpg');
+
+-- Empresa 8: Innovatech
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Desarrollador de Aplicaciones Móviles', 'Desarrollo de aplicaciones móviles en Android y iOS.', 'Tiempo Completo', 'Innovatech', 'hr@innovatech.com', 'imagen11.jpg');
+
+-- Empresa 9: TechHub
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Desarrollador Ruby on Rails', 'Desarrollo de aplicaciones web con Ruby on Rails.', 'Freelance', 'TechHub', 'careers@techhub.com', 'imagen12.jpg'),
+('Administrador de Bases de Datos', 'Administración y optimización de bases de datos.', 'Medio Tiempo', 'TechHub', 'careers@techhub.com', 'imagen13.jpg');
+
+-- Empresa 10: SoftSolutions
+INSERT INTO ofertas (titulo, descripcion, categoria, empresa, email_contacto, imagen)
+VALUES 
+('Arquitecto de Software', 'Diseño y arquitectura de sistemas software.', 'Tiempo Completo', 'SoftSolutions', 'contact@softsolutions.com', 'imagen14.jpg'),
+('Especialista en Seguridad Informática', 'Análisis y mejora de la seguridad informática.', 'Freelance', 'SoftSolutions', 'contact@softsolutions.com', 'imagen15.jpg');
